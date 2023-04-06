@@ -1,0 +1,13 @@
+#Practice with COUNT
+
+-- Count the number of records in the people table
+SELECT COUNT(people) AS  count_records
+FROM people;
+
+-- Count the number of birthdates in the people table
+SELECT COUNT(birthdate) AS  count_birthdate
+FROM people;
+
+-- Count the number of birthdates in the people table
+SELECT COUNT(birthdate) AS  count_birthdate
+FROM people;
