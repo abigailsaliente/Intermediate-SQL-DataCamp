@@ -1,0 +1,12 @@
+-- Select the title and release_year for films released between 1990 and 2000
+SELECT title, release_year
+FROM films
+WHERE release_year 
+BETWEEN 1990 AND 2000;
+
+--Build on your previous query to select only films with a budget over $100 million
+SELECT title, release_year
+FROM films
+WHERE release_year BETWEEN 1990 AND 2000
+-- Narrow down your query to films with budgets > $100 million
+	AND budget > 100000000;
