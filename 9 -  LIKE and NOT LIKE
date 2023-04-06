@@ -1,0 +1,14 @@
+-- Select the names that start with B
+SELECT name
+FROM people
+WHERE name LIKE 'B%';
+
+-- Select the names that have r as the second letter
+SELECT name
+FROM people
+WHERE name LIKE '_r%';
+
+-- Select names that don't start with A
+SELECT name
+FROM people
+WHERE name NOT LIKE 'A%';
